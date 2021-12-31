@@ -1,0 +1,5 @@
+skip_list:
+  - no-changed-when # tmp
+  - literal-compare # tmp
+  - package-latest # tmp
+  - command-instead-of-shell # tmp
