@@ -1,0 +1,10 @@
+- name: Install geographiclib-tools
+  ansible.builtin.apt:
+    name: geographiclib-tools
+    state: latest
+    update_cache: true
+  become: true
+
+- name: Install egm2008-1
+  ansible.builtin.command: geographiclib-get-geoids egm2008-1
+  become: true
