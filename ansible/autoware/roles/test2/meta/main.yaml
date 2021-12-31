@@ -1,12 +1,5 @@
-collections:
-  - name: https://github.com/kenji-miyake/test-ansible-collection.git
-    type: git
-    version: main
-
-dependencies: []
-
 galaxy_info:
-  company: None
+  company: Tier IV
   author: Kenji Miyake
   description: Install ROS 2
   license: Apache-2.0
