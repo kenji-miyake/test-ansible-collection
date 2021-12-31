@@ -1,0 +1,6 @@
+- hosts: localhost
+  connection: local
+  vars:
+    - rosdistro: galactic
+  roles:
+    - role: ros2
